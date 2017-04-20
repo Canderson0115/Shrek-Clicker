@@ -16,6 +16,8 @@ import MediaPlayer
 
 class ViewController: UIViewController {
     
+    var cool = "cool"
+    
     var player = Shop()
     
     var timer = Timer()
