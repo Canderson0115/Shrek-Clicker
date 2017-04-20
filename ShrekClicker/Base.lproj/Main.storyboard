@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ixG-DB-lQJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="EfK-8e-9Yb">
+            <objects>
+                <viewController id="eoy-m4-ZWe" customClass="SettingsViewController" customModule="ShrekClicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="89S-7e-Zez"/>
+                        <viewControllerLayoutGuide type="bottom" id="XRE-I8-ftX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aj2-76-eTC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="kEm-No-Jn0">
+                                <rect key="frame" x="65" y="169" width="244" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7ql-Fy-yXp"/>
+                                    <constraint firstAttribute="width" constant="240" id="RU3-Qz-Bqg"/>
+                                </constraints>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5s-KF-Jbu">
+                                <rect key="frame" x="170" y="207" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="7k3-JP-fiB"/>
+                                    <constraint firstAttribute="height" constant="30" id="iIY-jI-OrG"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="save:" destination="eoy-m4-ZWe" eventType="touchUpInside" id="IMw-Gq-787"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fast = right" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4d-Hz-ATa">
+                                <rect key="frame" x="67" y="70" width="240" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="BiO-4g-m3V"/>
+                                    <constraint firstAttribute="width" constant="240" id="XkB-j1-2ZN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pause/Play = middle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHy-r0-gkM">
+                                <rect key="frame" x="67" y="103" width="240" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="GiX-YO-pNB"/>
+                                    <constraint firstAttribute="width" constant="240" id="akK-RR-MY7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slow = left" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaL-uf-p6s">
+                                <rect key="frame" x="67" y="136" width="240" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="qzq-Ij-lrr"/>
+                                    <constraint firstAttribute="height" constant="25" id="toG-rW-c4A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pressing the volume buttons will..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7u-6e-lTn">
+                                <rect key="frame" x="55" y="28" width="264" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="n0n-5Y-4xx"/>
+                                    <constraint firstAttribute="width" constant="264" id="vjm-fy-n1r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o4d-Hz-ATa" firstAttribute="top" secondItem="Z7u-6e-lTn" secondAttribute="bottom" constant="8" id="20j-Xs-4hU"/>
+                            <constraint firstItem="ZHy-r0-gkM" firstAttribute="centerX" secondItem="aj2-76-eTC" secondAttribute="centerX" id="E3t-kY-12f"/>
+                            <constraint firstItem="H5s-KF-Jbu" firstAttribute="centerX" secondItem="aj2-76-eTC" secondAttribute="centerX" id="JIx-JE-7K0"/>
+                            <constraint firstItem="kEm-No-Jn0" firstAttribute="top" secondItem="aaL-uf-p6s" secondAttribute="bottom" constant="8" id="MXR-CU-awU"/>
+                            <constraint firstItem="aaL-uf-p6s" firstAttribute="top" secondItem="ZHy-r0-gkM" secondAttribute="bottom" constant="8" id="QZm-CO-bFS"/>
+                            <constraint firstItem="H5s-KF-Jbu" firstAttribute="top" secondItem="kEm-No-Jn0" secondAttribute="bottom" constant="8" id="RIs-af-TdY"/>
+                            <constraint firstItem="Z7u-6e-lTn" firstAttribute="centerX" secondItem="aj2-76-eTC" secondAttribute="centerX" id="co0-xN-Zgf"/>
+                            <constraint firstItem="aaL-uf-p6s" firstAttribute="centerX" secondItem="aj2-76-eTC" secondAttribute="centerX" id="g7d-WO-Gdn"/>
+                            <constraint firstItem="ZHy-r0-gkM" firstAttribute="top" secondItem="o4d-Hz-ATa" secondAttribute="bottom" constant="8" id="gMF-ar-fzc"/>
+                            <constraint firstItem="kEm-No-Jn0" firstAttribute="centerX" secondItem="aj2-76-eTC" secondAttribute="centerX" id="hE8-7S-n8J"/>
+                            <constraint firstItem="Z7u-6e-lTn" firstAttribute="top" secondItem="89S-7e-Zez" secondAttribute="bottom" constant="8" id="pJB-fv-z18"/>
+                            <constraint firstItem="o4d-Hz-ATa" firstAttribute="centerX" secondItem="aj2-76-eTC" secondAttribute="centerX" id="zkC-S6-EJ3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="kEm-No-Jn0" id="PhH-Ja-C5p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xD7-Er-20V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="-292.80359820089956"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShrekClicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm4-vB-pb1">
+                                <rect key="frame" x="40" y="103" width="295" height="186"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="UZ2-yZ-zf2"/>
+                                    <constraint firstAttribute="width" constant="295" id="t2i-Jw-xmq"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="shrekFace"/>
+                                <connections>
+                                    <action selector="tapShrekFace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAi-Mx-4gl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fm1-dM-ocF">
+                                <rect key="frame" x="40" y="355" width="295" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="BJo-en-Ok8"/>
+                                    <constraint firstAttribute="height" constant="37" id="xca-iu-Vgj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fairytale Creatures Kicked Out of Swamp:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQQ-bk-GhU">
+                                <rect key="frame" x="28" y="297" width="318" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="J0I-6c-OP0"/>
+                                    <constraint firstAttribute="height" constant="50" id="UsC-aN-cm2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAH-xf-qhL">
+                                <rect key="frame" x="99" y="400" width="177" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="Az7-kI-g9U"/>
+                                    <constraint firstAttribute="height" constant="30" id="kMm-ez-ClM"/>
+                                </constraints>
+                                <state key="normal" title="Trade with Lord Farquaad"/>
+                                <connections>
+                                    <segue destination="Q2F-uC-SC3" kind="show" identifier="Trade" id="N0d-Tk-9hE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YQQ-bk-GhU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1y2-8W-Axe"/>
+                            <constraint firstItem="YQQ-bk-GhU" firstAttribute="top" secondItem="hm4-vB-pb1" secondAttribute="bottom" constant="8" id="2Fa-Yk-kkM"/>
+                            <constraint firstItem="hm4-vB-pb1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="HxJ-Up-5NN"/>
+                            <constraint firstItem="Fm1-dM-ocF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SIR-R3-nMQ"/>
+                            <constraint firstItem="BAH-xf-qhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lIu-Dh-bU0"/>
+                            <constraint firstItem="BAH-xf-qhL" firstAttribute="top" secondItem="Fm1-dM-ocF" secondAttribute="bottom" constant="8" id="rM9-pl-8px"/>
+                            <constraint firstItem="hm4-vB-pb1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rrF-Nb-cjC"/>
+                            <constraint firstItem="Fm1-dM-ocF" firstAttribute="top" secondItem="hm4-vB-pb1" secondAttribute="bottom" constant="66" id="yEj-Mj-82w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hst-3F-WXh">
+                        <barButtonItem key="rightBarButtonItem" title="Music Settings" id="hNv-TZ-FhW">
+                            <connections>
+                                <action selector="muteHaPranked:" destination="BYZ-38-t0r" id="PRi-lv-Fbc"/>
+                                <segue destination="eoy-m4-ZWe" kind="show" identifier="Settings" id="cZk-Ml-7yn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="creatureCountLabel" destination="Fm1-dM-ocF" id="z53-8Y-Zct"/>
+                        <outlet property="shreksFace" destination="hm4-vB-pb1" id="JGu-RC-eLk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="348.57571214392806"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="d03-w1-W8W">
+            <objects>
+                <viewController title="Trading with Farquaad" id="Q2F-uC-SC3" userLabel="Shop" customClass="ShopViewController" customModule="ShrekClicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fZQ-uF-VcZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lze-xs-YfS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RHe-ne-oq8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LordFarquaad" translatesAutoresizingMaskIntoConstraints="NO" id="xz2-TH-HNq">
+                                <rect key="frame" x="0.0" y="176" width="375" height="491"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number Of Fairytale Creatures Kicked Out Of Swamp" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATI-ES-dJM">
+                                <rect key="frame" x="40" y="72" width="295" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="Qkb-HJ-0jA"/>
+                                    <constraint firstAttribute="height" constant="53" id="vY8-EL-ZTA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lP-6Q-LFY">
+                                <rect key="frame" x="67" y="133" width="240" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="dHE-5N-aXO"/>
+                                    <constraint firstAttribute="width" constant="240" id="sKX-fm-SHY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVc-lg-oTe">
+                                <rect key="frame" x="67" y="176" width="292" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OfX-Sg-Pbl"/>
+                                    <constraint firstAttribute="width" constant="292" id="V51-Wf-jbx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="30 Fairytale Creatures: Power Shrek">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addPowerShrek:" destination="Q2F-uC-SC3" eventType="touchUpInside" id="tjd-Oh-ApA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maB-Mf-fFc">
+                                <rect key="frame" x="67" y="234" width="292" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="69k-CC-YvA"/>
+                                    <constraint firstAttribute="width" constant="292" id="qYB-Cy-vIG"/>
+                                </constraints>
+                                <state key="normal" title="20 Fairytale Creatures: Auto Shrek"/>
+                                <connections>
+                                    <action selector="donkey:" destination="Q2F-uC-SC3" eventType="touchUpInside" id="BQg-Tu-lLr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptf-L9-d97">
+                                <rect key="frame" x="16" y="184" width="46" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="HL8-SP-iwH"/>
+                                    <constraint firstAttribute="width" constant="46" id="MHI-4Q-F4W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeU-YH-20b">
+                                <rect key="frame" x="16" y="242" width="46" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="HBP-0u-6Jn"/>
+                                    <constraint firstAttribute="width" constant="46" id="UVO-Zd-RrK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3c-1M-wTV">
+                                <rect key="frame" x="16" y="126" width="71" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="Wj8-Ta-NdC"/>
+                                    <constraint firstAttribute="height" constant="50" id="Y7E-av-kPA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfA-LB-aBc">
+                                <rect key="frame" x="67" y="292" width="292" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="292" id="OBl-P3-3xd"/>
+                                    <constraint firstAttribute="height" constant="50" id="ezt-6p-DwI"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ita-FC-SPP">
+                                <rect key="frame" x="16" y="292" width="46" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="DXd-Pb-eip"/>
+                                    <constraint firstAttribute="height" constant="50" id="Wln-IY-Kgj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-OK-ByT">
+                                <rect key="frame" x="67" y="604" width="292" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="03Y-hu-tLD"/>
+                                    <constraint firstAttribute="width" constant="292" id="u3F-5w-N3d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="10,000 Fairytale Creatures: GET OUT OF MA SWAMP!"/>
+                                <connections>
+                                    <action selector="getOutOfMaSwamp:" destination="Q2F-uC-SC3" eventType="touchUpInside" id="bIf-bz-9d6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lze-xs-YfS" firstAttribute="top" secondItem="xz2-TH-HNq" secondAttribute="bottom" id="4Co-cG-P0p"/>
+                            <constraint firstItem="xz2-TH-HNq" firstAttribute="top" secondItem="fZQ-uF-VcZ" secondAttribute="bottom" constant="112" id="64c-rA-CM1"/>
+                            <constraint firstItem="pfA-LB-aBc" firstAttribute="top" secondItem="maB-Mf-fFc" secondAttribute="bottom" constant="8" id="Bl9-8J-3JK"/>
+                            <constraint firstItem="ptf-L9-d97" firstAttribute="top" secondItem="ATI-ES-dJM" secondAttribute="bottom" constant="59" id="F63-ia-MjP"/>
+                            <constraint firstItem="qIK-OK-ByT" firstAttribute="top" secondItem="pfA-LB-aBc" secondAttribute="bottom" constant="262" id="PlA-Dd-4M8"/>
+                            <constraint firstItem="ptf-L9-d97" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="-148.5" id="QCD-8B-eqN"/>
+                            <constraint firstItem="maB-Mf-fFc" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="25.5" id="YSQ-WI-1vF"/>
+                            <constraint firstItem="ATI-ES-dJM" firstAttribute="top" secondItem="fZQ-uF-VcZ" secondAttribute="bottom" constant="8" id="aDl-ai-MIx"/>
+                            <constraint firstItem="HeU-YH-20b" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="-148.5" id="daA-xE-uY2"/>
+                            <constraint firstAttribute="trailing" secondItem="xz2-TH-HNq" secondAttribute="trailing" id="f5v-ma-PZ2"/>
+                            <constraint firstItem="xz2-TH-HNq" firstAttribute="leading" secondItem="RHe-ne-oq8" secondAttribute="leading" id="gXl-aB-Wjv"/>
+                            <constraint firstItem="pfA-LB-aBc" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="25.5" id="kjU-lI-sLe"/>
+                            <constraint firstItem="IVc-lg-oTe" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="25.5" id="m76-4m-Hee"/>
+                            <constraint firstItem="Ita-FC-SPP" firstAttribute="top" secondItem="HeU-YH-20b" secondAttribute="bottom" constant="15" id="onB-Ne-zqB"/>
+                            <constraint firstItem="qIK-OK-ByT" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="25.5" id="q96-JO-pf7"/>
+                            <constraint firstItem="ATI-ES-dJM" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" id="qLt-y0-0o3"/>
+                            <constraint firstItem="G3c-1M-wTV" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="-136" id="rFw-Qw-to1"/>
+                            <constraint firstItem="HeU-YH-20b" firstAttribute="top" secondItem="ptf-L9-d97" secondAttribute="bottom" constant="23" id="s9Q-Ba-vVc"/>
+                            <constraint firstItem="IVc-lg-oTe" firstAttribute="top" secondItem="ATI-ES-dJM" secondAttribute="bottom" constant="51" id="sky-Re-efe"/>
+                            <constraint firstItem="Ita-FC-SPP" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="-148.5" id="sm9-nI-Bva"/>
+                            <constraint firstItem="9lP-6Q-LFY" firstAttribute="top" secondItem="ATI-ES-dJM" secondAttribute="bottom" constant="8" id="uVe-aR-rYM"/>
+                            <constraint firstItem="G3c-1M-wTV" firstAttribute="top" secondItem="ATI-ES-dJM" secondAttribute="bottom" constant="1" id="ux5-H1-hSH"/>
+                            <constraint firstItem="maB-Mf-fFc" firstAttribute="top" secondItem="IVc-lg-oTe" secondAttribute="bottom" constant="8" id="w0L-7J-glq"/>
+                            <constraint firstItem="9lP-6Q-LFY" firstAttribute="centerX" secondItem="RHe-ne-oq8" secondAttribute="centerX" constant="-0.5" id="wXE-ZT-CyR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rva-MN-2D4"/>
+                    <connections>
+                        <outlet property="autoClickOutlet" destination="maB-Mf-fFc" id="kKI-TI-yG7"/>
+                        <outlet property="fairytaleCreaturesLabel" destination="9lP-6Q-LFY" id="SeH-nu-4zQ"/>
+                        <outlet property="getOutOfMaSwampOutlet" destination="qIK-OK-ByT" id="cIJ-kB-cWV"/>
+                        <outlet property="numberOfAutoShreksOutlet" destination="HeU-YH-20b" id="01O-yS-VDR"/>
+                        <outlet property="powerShrekOutlet" destination="IVc-lg-oTe" id="cb7-ee-7NH"/>
+                        <outlet property="shrekPowerLevelOutlet" destination="ptf-L9-d97" id="VEv-eb-9FV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1JP-OM-mEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2144.8000000000002" y="348.57571214392806"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zeY-Yz-jlw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ixG-DB-lQJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uCi-VK-BhL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ked-7I-xxD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Dy-QE-jwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="633" y="349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LordFarquaad" width="300" height="300"/>
+        <image name="shrekFace" width="1240" height="775"/>
+    </resources>
+</document>

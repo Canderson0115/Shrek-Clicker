@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7130FE51E0478EE00414CD4 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7130FE41E0478EE00414CD4 /* ShopViewController.swift */; };
+		D76F8FF51E60D2F600A5D5F1 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F8FF41E60D2F600A5D5F1 /* Shop.swift */; };
+		D7EAC4AF1E9EBA0B008FB0B6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EAC4AE1E9EBA0B008FB0B6 /* SettingsViewController.swift */; };
+		D7F75A0B1E9C14CF00303F34 /* AllStar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7F75A0A1E9C14CF00303F34 /* AllStar.mp3 */; };
+		D7FE41991E0337FC00E03C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE41981E0337FC00E03C74 /* AppDelegate.swift */; };
+		D7FE419B1E0337FC00E03C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE419A1E0337FC00E03C74 /* ViewController.swift */; };
+		D7FE419E1E0337FC00E03C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FE419C1E0337FC00E03C74 /* Main.storyboard */; };
+		D7FE41A01E0337FC00E03C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FE419F1E0337FC00E03C74 /* Assets.xcassets */; };
+		D7FE41A31E0337FC00E03C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FE41A11E0337FC00E03C74 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7130FE41E0478EE00414CD4 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		D76F8FF41E60D2F600A5D5F1 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		D7EAC4AE1E9EBA0B008FB0B6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D7F75A0A1E9C14CF00303F34 /* AllStar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AllStar.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/AllStar.mp3"; sourceTree = "<group>"; };
+		D7FE41951E0337FC00E03C74 /* ShrekClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrekClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FE41981E0337FC00E03C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FE419A1E0337FC00E03C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7FE419D1E0337FC00E03C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FE419F1E0337FC00E03C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FE41A21E0337FC00E03C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FE41A41E0337FC00E03C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FE41921E0337FC00E03C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7FE418C1E0337FC00E03C74 = {
+			isa = PBXGroup;
+			children = (
+				D7FE41971E0337FC00E03C74 /* ShrekClicker */,
+				D7FE41961E0337FC00E03C74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FE41961E0337FC00E03C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE41951E0337FC00E03C74 /* ShrekClicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FE41971E0337FC00E03C74 /* ShrekClicker */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE41981E0337FC00E03C74 /* AppDelegate.swift */,
+				D7FE419A1E0337FC00E03C74 /* ViewController.swift */,
+				D7FE419C1E0337FC00E03C74 /* Main.storyboard */,
+				D7EAC4AE1E9EBA0B008FB0B6 /* SettingsViewController.swift */,
+				D76F8FF41E60D2F600A5D5F1 /* Shop.swift */,
+				D7130FE41E0478EE00414CD4 /* ShopViewController.swift */,
+				D7F75A0A1E9C14CF00303F34 /* AllStar.mp3 */,
+				D7FE419F1E0337FC00E03C74 /* Assets.xcassets */,
+				D7FE41A11E0337FC00E03C74 /* LaunchScreen.storyboard */,
+				D7FE41A41E0337FC00E03C74 /* Info.plist */,
+			);
+			path = ShrekClicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FE41941E0337FC00E03C74 /* ShrekClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FE41A71E0337FC00E03C74 /* Build configuration list for PBXNativeTarget "ShrekClicker" */;
+			buildPhases = (
+				D7FE41911E0337FC00E03C74 /* Sources */,
+				D7FE41921E0337FC00E03C74 /* Frameworks */,
+				D7FE41931E0337FC00E03C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShrekClicker;
+			productName = ShrekClicker;
+			productReference = D7FE41951E0337FC00E03C74 /* ShrekClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FE418D1E0337FC00E03C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Hersey High School";
+				TargetAttributes = {
+					D7FE41941E0337FC00E03C74 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JML6FZTNJ8;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = D7FE41901E0337FC00E03C74 /* Build configuration list for PBXProject "ShrekClicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FE418C1E0337FC00E03C74;
+			productRefGroup = D7FE41961E0337FC00E03C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FE41941E0337FC00E03C74 /* ShrekClicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FE41931E0337FC00E03C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F75A0B1E9C14CF00303F34 /* AllStar.mp3 in Resources */,
+				D7FE41A31E0337FC00E03C74 /* LaunchScreen.storyboard in Resources */,
+				D7FE41A01E0337FC00E03C74 /* Assets.xcassets in Resources */,
+				D7FE419E1E0337FC00E03C74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FE41911E0337FC00E03C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FE419B1E0337FC00E03C74 /* ViewController.swift in Sources */,
+				D7FE41991E0337FC00E03C74 /* AppDelegate.swift in Sources */,
+				D7130FE51E0478EE00414CD4 /* ShopViewController.swift in Sources */,
+				D7EAC4AF1E9EBA0B008FB0B6 /* SettingsViewController.swift in Sources */,
+				D76F8FF51E60D2F600A5D5F1 /* Shop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7FE419C1E0337FC00E03C74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FE419D1E0337FC00E03C74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FE41A11E0337FC00E03C74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FE41A21E0337FC00E03C74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FE41A51E0337FC00E03C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7FE41A61E0337FC00E03C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FE41A81E0337FC00E03C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JML6FZTNJ8;
+				INFOPLIST_FILE = ShrekClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs620011.ShrekClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7FE41A91E0337FC00E03C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JML6FZTNJ8;
+				INFOPLIST_FILE = ShrekClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs620011.ShrekClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FE41901E0337FC00E03C74 /* Build configuration list for PBXProject "ShrekClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FE41A51E0337FC00E03C74 /* Debug */,
+				D7FE41A61E0337FC00E03C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FE41A71E0337FC00E03C74 /* Build configuration list for PBXNativeTarget "ShrekClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FE41A81E0337FC00E03C74 /* Debug */,
+				D7FE41A91E0337FC00E03C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FE418D1E0337FC00E03C74 /* Project object */;
+}
